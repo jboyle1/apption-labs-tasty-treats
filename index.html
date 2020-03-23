@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="/assets/styles.css" rel="stylesheet" type="text/css">
+        <title>Tasty Treats</title>
+    </head>
+    <body>
+        <main class="main-contianer">
+            <header class="title-section">
+                <h1 class="title">Welcome to Tasty Treats</h1>
+                <hr class="hr">
+                <h2 class="subTitle">Your local bakery!</h2>
+                <p class="para">Please fill in our inquiry form below:</p>
+            </header>
+            <section class="formSection">
+                <form>
+                    <label for="firstName">First name:</label>
+                    <input type="text" name="firstName" required="required">
+                    <br><br>
+                    <label for="lastName">Last name:</label>
+                    <input type="text" name="lastName" required="required">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required="required">
+                    <br><br><br>
+                    <label for="message">Leave a message:</label>
+                    <br><br>
+                    <textarea rows="4" cols="50" name="message" class="textArea" placeholder="Enter text here..."></textarea>
+                    <br><br>
+                    <label for="newsLetter">Please check to recieve our newsletter</label>
+                    <input type="checkbox" name="newsLetter">
+                    <br><br>
+                    <div class="submitButton">
+                    <input type="submit" class="button" value="submit">
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
