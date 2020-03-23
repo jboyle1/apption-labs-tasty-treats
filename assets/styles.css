@@ -111,6 +111,10 @@ h2.sub-title {
     margin: 25px auto 60px;
 }
 
+.para a{
+    text-decoration: none;
+}
+
 
 .form-section {
     width:100%;
