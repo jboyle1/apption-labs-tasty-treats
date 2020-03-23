@@ -1,0 +1,23 @@
+{
+  "name": "apption-labs-tasty-treats",
+  "version": "1.0.0",
+  "description": "Technical challenge using NodeJS to save form data and store in a text file on the server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jboyle1/apption-labs-tasty-treats.git"
+  },
+  "author": "Jed Boyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jboyle1/apption-labs-tasty-treats/issues"
+  },
+  "homepage": "https://github.com/jboyle1/apption-labs-tasty-treats#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
