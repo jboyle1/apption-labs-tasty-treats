@@ -12,7 +12,7 @@ let urlencodedParser = bodyParser.urlencoded({ extended: true });
 app.set("view engine", "ejs");
 
 // Port
-app.listen(3001);
+app.listen(8080, '0.0.0.0');
 
 // Static files
 app.use("/assets", express.static("assets"));
