@@ -2,6 +2,7 @@
 let express = require("express");
 let bodyParser = require("body-parser");
 let fs = require("fs");
+let PORT = process.env.PORT || 8080;
 
 let app = express();
 
@@ -12,7 +13,9 @@ let urlencodedParser = bodyParser.urlencoded({ extended: true });
 app.set("view engine", "ejs");
 
 // Port
-app.listen(8080, '0.0.0.0');
+app.listen(PORT, () => {
+    console.log("Server running on 5000");
+});
 
 // Static files
 app.use("/assets", express.static("assets"));
