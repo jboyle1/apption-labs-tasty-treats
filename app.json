@@ -1,0 +1,8 @@
+{
+    "name": "apption-labs-tasty-treats",
+    "description": "Technical challenge using NodeJS to save form data and store in a text file on the server.",
+    "repository": "https://github.com/jboyle1/apption-labs-tasty-treats",
+    "logo": "http://node-js-sample.heroku.com/node.svg",
+    "keywords": ["node", "express", "static"],
+    "image": "heroku/node.js"
+}
