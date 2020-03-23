@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
         <link href="/assets/styles.css" rel="stylesheet" type="text/css">
         <title>Tasty Treats</title>
     </head>
@@ -12,11 +13,11 @@
             <header class="title-section">
                 <h1 class="title">Welcome to Tasty Treats</h1>
                 <hr class="hr">
-                <h2 class="subTitle">Your local bakery!</h2>
+                <h2 class="sub-title">Your local bakery!</h2>
                 <p class="para">Please fill in our inquiry form below:</p>
             </header>
-            <section class="formSection">
-                <form>
+            <section class="form-section">
+                <form name="user-info-form">
                     <label for="firstName">First name:</label>
                     <input type="text" name="firstName" required="required">
                     <br><br>
@@ -28,12 +29,12 @@
                     <br><br><br>
                     <label for="message">Leave a message:</label>
                     <br><br>
-                    <textarea rows="4" cols="50" name="message" class="textArea" placeholder="Enter text here..."></textarea>
+                    <textarea rows="4" cols="50" name="message" class="text-area" placeholder="Enter text here..."></textarea>
                     <br><br>
                     <label for="newsLetter">Please check to recieve our newsletter</label>
                     <input type="checkbox" name="newsLetter">
                     <br><br>
-                    <div class="submitButton">
+                    <div class="submit-button">
                     <input type="submit" class="button" value="submit">
                     </div>
                 </form>
