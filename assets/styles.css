@@ -75,6 +75,11 @@ p {
     text-align: center;
 }
 
+a {
+    
+    color: white;
+}
+
 /* Global styles */
 
 /* Main styles */
@@ -198,6 +203,11 @@ form {
         margin: 30px auto;
         text-align: center;
         font-size: 14px;
+    }
+
+    a {
+    
+        color: white;
     }
 
     form {
